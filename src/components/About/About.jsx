@@ -6,70 +6,46 @@ import Header from '../Header/Header';
 import FooterLink from '../FooterLink/FooterLink';
 
 const About = () => {
-    return (
-        <div className='section-container'>
-            <Header
-                heading='About Me.'
-                details='A Passionate Programmer | Enthusiastic Learner | Problem Solver'
-            />
-            <div className='about-main'>
-                <div className='about-main-left'>
-                    {/* Sub section 1 */}
-                    <h3 className='about-sub-head'>Teacher</h3>
-                    <p className='about-details'>
-                        Teaching is my passion, till now, I've taught thousands
-                        of students about Programming and Web Development. Check
-                        out{' '}
-                        <a
-                            className='about-link-element'
-                            href='http://theleanprogrammer.com/aam'
-                        >
-                            my free react course!
-                        </a>
-                    </p>
-
-                    {/* Sub section 2 */}
-                    <h3 className='about-sub-head'>Blogger</h3>
-                    <p className='about-details'>
-                        I've been writing blogs from around 3 years now, and
-                        became top-blogger on medium twice. Check out{' '}
-                        <a
-                            className='about-link-element'
-                            href='https://madhavbahl.medium.com'
-                        >
-                            my medium blogs today!
-                        </a>
-                    </p>
-
-                    {/* Sub section 3 */}
-                    <h3 className='about-sub-head'>Public Speaker</h3>
-                    <p className='about-details'>
-                        Being a passionate public speaker, I've given talks at
-                        more than 75 events till now! Want me to speak in your
-                        event?{' '}
-                        <a
-                            className='about-link-element'
-                            href='mailto:info@theleanprogrammer.com'
-                        >
-                            Email me the details!
-                        </a>
-                    </p>
-                </div>
-
-                <div className='about-main-right'>
-                    <img className='about-anime' src={aboutAnime} alt='about' />
-                </div>
-            </div>
-            <FooterLink
-                phrase='Check out my '
-                link='projects!'
-                toAddress='/projects'
-            />
-            <div className='vector-frame'>
-                <img className='about-vector' src={aboutVector} alt='' />
-            </div>
+  return (
+    <div className="section-container">
+      <Header
+        heading="About Me."
+        details="A Passionate Programmer | Enthusiastic Learner | Problem Solver"
+      />
+      <div className="about-main">
+        <div className="about-main-left">
+          <p className="about-details">
+            As a Software Engineer with over 3 years of experience in the IT
+            industry, I am dedicated to finding innovative solutions to complex
+            technical challenges. My focus is on delivering solutions that
+            reduce costs, increase productivity, and transform IT into a
+            strategic business asset. I am passionate about writing clean,
+            efficient code and am eager to contribute to advancements in urban
+            transit. Always open to connecting with industry professionals to
+            collaborate and share insights. Want to reach out to me?{' '}
+            <a
+              className="about-link-element"
+              href="https://www.linkedin.com/in/yashagarwal1611/"
+            >
+              @YashAgarwal
+            </a>
+          </p>
         </div>
-    );
+
+        <div className="about-main-right">
+          <img className="about-anime" src={aboutAnime} alt="about" />
+        </div>
+      </div>
+      <FooterLink
+        phrase="Check out my "
+        link="projects!"
+        toAddress="/projects"
+      />
+      <div className="vector-frame">
+        <img className="about-vector" src={aboutVector} alt="" />
+      </div>
+    </div>
+  );
 };
 
 export default About;
