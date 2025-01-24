@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.50bd1fcd.css",
-    "main.js": "/static/js/main.b8726f33.js",
-    "static/media/about_anime.gif": "/static/media/about_anime.986764c2696118dcbe90.gif",
-    "static/media/home_anime.gif": "/static/media/home_anime.f372ef867ab6dc71a52b.gif",
-    "static/media/skills_vector.png": "/static/media/skills_vector.1fb5f4a4d14c368c84df.png",
-    "static/media/about_vector.png": "/static/media/about_vector.c42fe3db5738a7e28724.png",
-    "static/media/contact_anime.png": "/static/media/contact_anime.1f3936c4dbee6daaaa77.png",
-    "static/media/react.png": "/static/media/react.7e9e8696236ea972d4f5.png",
-    "static/media/java.png": "/static/media/java.798ad9a18f47c826c956.png",
-    "index.html": "/index.html",
-    "main.50bd1fcd.css.map": "/static/css/main.50bd1fcd.css.map",
-    "main.b8726f33.js.map": "/static/js/main.b8726f33.js.map"
+    "main.css": "/YashAgarwal.github.io/Portfolio/static/css/main.50bd1fcd.css",
+    "main.js": "/YashAgarwal.github.io/Portfolio/static/js/main.9b4cec05.js",
+    "static/media/about_anime.gif": "/YashAgarwal.github.io/Portfolio/static/media/about_anime.986764c2696118dcbe90.gif",
+    "static/media/home_anime.gif": "/YashAgarwal.github.io/Portfolio/static/media/home_anime.f372ef867ab6dc71a52b.gif",
+    "static/media/skills_vector.png": "/YashAgarwal.github.io/Portfolio/static/media/skills_vector.1fb5f4a4d14c368c84df.png",
+    "static/media/about_vector.png": "/YashAgarwal.github.io/Portfolio/static/media/about_vector.c42fe3db5738a7e28724.png",
+    "static/media/contact_anime.png": "/YashAgarwal.github.io/Portfolio/static/media/contact_anime.1f3936c4dbee6daaaa77.png",
+    "static/media/react.png": "/YashAgarwal.github.io/Portfolio/static/media/react.7e9e8696236ea972d4f5.png",
+    "static/media/java.png": "/YashAgarwal.github.io/Portfolio/static/media/java.798ad9a18f47c826c956.png",
+    "index.html": "/YashAgarwal.github.io/Portfolio/index.html",
+    "main.50bd1fcd.css.map": "/YashAgarwal.github.io/Portfolio/static/css/main.50bd1fcd.css.map",
+    "main.9b4cec05.js.map": "/YashAgarwal.github.io/Portfolio/static/js/main.9b4cec05.js.map"
   },
   "entrypoints": [
     "static/css/main.50bd1fcd.css",
-    "static/js/main.b8726f33.js"
+    "static/js/main.9b4cec05.js"
   ]
 }
