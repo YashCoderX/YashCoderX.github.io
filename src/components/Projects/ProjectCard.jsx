@@ -10,22 +10,9 @@ const ProjectCard = ({
 }) => {
     return (
         <div className='project-card'>
-            <div className='image-container'>
-                <a className='project-external-link' href={projectUrl}>
-                    <img
-                        src={imageUrl}
-                        alt='project'
-                        className='project-image'
-                    />
-                </a>
-            </div>
-
             <div className='project-details-container'>
                 <h2 className='project-heading'>{projectName}</h2>
                 <p className='project-details'>{projectDescription}</p>
-                <a href={videoUrl} className='project-yt-link'>
-                    Watch More!
-                </a>
             </div>
         </div>
     );

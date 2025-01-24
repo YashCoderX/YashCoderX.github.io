@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState }  from 'react';
 import FooterLink from '../FooterLink/FooterLink';
 import Header from '../Header/Header';
 import './Contact.css';
@@ -6,10 +6,22 @@ import contactVector from './../../assets/contact_anime.png';
 import github from './../../assets/gh.png';
 import linkedin from './../../assets/li.png';
 import instagram from './../../assets/in.png';
-import medium from './../../assets/me.png';
-import web from './../../assets/web.png';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
+    const [status, setStatus] = useState('');
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+        
+        emailjs.sendForm('service_w36y7zl', 'template_jwex1sn', e.target, 'PI3wNjAVdZehwLxye')
+            .then((result) => {
+                setStatus('Message sent successfully!');
+            }, (error) => {
+                setStatus('Failed to send message.');
+            });
+    };
+
     return (
         <div className='section-container'>
             <Header
@@ -18,16 +30,13 @@ const Contact = () => {
             />
 
             <div className='contact-form-container'>
-                <form
-                    action='https://formspree.io/f/myylwzwl'
-                    method='POST'
-                    className='contact-form'
-                >
+                <form onSubmit={sendEmail}>
+
                     {/* EmailID Input */}
                     <input
                         type='email'
                         placeholder='Your Email ID'
-                        name='_replyto'
+                        name='user_email'
                         className='input-box email-input'
                     />
 
@@ -44,29 +53,24 @@ const Contact = () => {
                         Send Email
                     </button>
                 </form>
+                {status && <p>{status}</p>}
             </div>
 
             <div className='social-icons-container'>
-                <a className='social-icon' href='https://github.com/MadhavBahl'>
+                <a className='social-icon' href='https://github.com/YashCoderX'>
                     <img src={github} alt='github' />
                 </a>
                 <a
                     className='social-icon'
-                    href='https://linkedin.com/in/madhavbahl/'
+                    href='https://linkedin.com/in/yashagarwal1611/'
                 >
                     <img src={linkedin} alt='linkedin' />
                 </a>
                 <a
                     className='social-icon'
-                    href='https://instagram.com/theleanprogrammer/'
+                    href='https://instagram.com/_yashagarwal.16'
                 >
                     <img src={instagram} alt='instagram' />
-                </a>
-                <a className='social-icon' href='https://madhavbahl.medium.com'>
-                    <img src={medium} alt='medium' />
-                </a>
-                <a className='social-icon' href='https://madhavbahl.tech'>
-                    <img src={web} alt='web' />
                 </a>
             </div>
 

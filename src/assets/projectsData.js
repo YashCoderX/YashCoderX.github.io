@@ -1,46 +1,27 @@
 export const projectsData = [
-    {
-        projectName: 'Name It!',
-        projectDescription:
-            'Do you find it difficult to name your projects or ventures? Fear not! Check out this cool name suggestion application which will help you find the best name for your next project, venture, or startup. Keep building!',
-        imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj1.PNG',
-        videoUrl:
-            'https://www.youtube.com/playlist?list=PLGyA74h_S9NqJvvQ7-l9bUHHS6bMCkgo0',
-        projectUrl: 'http://theleanprogrammer.com/name-it/',
-    },
-    {
-        projectName: 'FlashType',
-        projectDescription:
-            'Having a good typing speed will always help you as a developer! Here, I present you the typing speed test application, where you can check your typing speed (in wpm) and share the results with your friends too.',
-        imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj2.PNG',
-        videoUrl:
-            'https://www.youtube.com/playlist?list=PLGyA74h_S9NppHNrzUSjMQbnuHS9jlAcY',
-        projectUrl: 'http://theleanprogrammer.com/flashtype/',
-    },
-    {
-        projectName: 'Flexbox Cheatsheet',
-        projectDescription:
-            'A frontend web developer must know the concepts of CSS Flexbox. So here is a CSS Flexbox cheatsheet, built using CSS Flexbox. Learn the concepts of flexbox by building a cheatsheet which is built using flexbox. Super cool!',
-        imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj3.PNG',
-        videoUrl:
-            'https://www.youtube.com/playlist?list=PLGyA74h_S9NrkKnaIrYeOolru4EakosHY',
-        projectUrl: 'http://theleanprogrammer.com/flex/',
-    },
-    {
-        projectName: 'PokeDex',
-        projectDescription:
-            "Pokemon was a huge part of our childhood, wasn't it? Talking about pokemon brings back so many memories, but do you remember the details of each pokemon? Probably No! So here I bring you a pokedex to check all pokemons :)",
-        imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj4.PNG',
-        videoUrl:
-            'https://www.youtube.com/playlist?list=PLGyA74h_S9NrjM7mUiSmpKfUntwEcgMB3',
-        projectUrl: 'http://theleanprogrammer.com/pokedex/',
-    },
-    {
-        projectName: 'Portfolio Website',
-        projectDescription:
-            'As a developer/designer, you should definitely have your own portfolio website. There are endless benefits. But, a lot of people feel that it would be tough to make one. So here I bring you a tutorial to make your own website.',
-        imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj5.PNG',
-        videoUrl: 'http://theleanprogrammer.com/aam',
-        projectUrl: 'http://madhavbahl.tech/portfolio/',
-    },
+  {
+    projectName: 'S3 Caching System',
+    projectDescription:
+      'A high-performance caching system compatible with AWS S3. This solution supports the efficient streaming of large payloads and handles thousands of concurrent requests per second.',
+  },
+  {
+    projectName: 'ZVault Secret Management Tool',
+    projectDescription:
+      'This project is for the internal housing use for the client in which the user has the full search capability. User has to login with OIDC (Azure AD SSO) and the browser maintains the session token and user has all create, edit, list, etc. permissions that their AD user possessed for vault secrets. Basically, it is a frontend project which allows user to keep and manage their secure and secret management tool.',
+  },
+  {
+    projectName: 'E-commerce Website',
+    projectDescription:
+      "An e-commerce website is an online platform where businesses can sell their products or services to consumers through the internet. This website includes product catalogs and shopping cart that allow customers to purchase items with ease. The scope of the project included designing and developing the website, integrating an e-commerce platform, optimizing the user experience.",
+  },
+  {
+    projectName: 'Detection of Adulteration in Fruits Using Machine Learning',
+    projectDescription:
+      "To detect adulteration of formalin (naturally occurring formalin), formaldehyde using machine learning, Internet of Things, HCHO gas sensor, Raspberry Pi4 and using supervised machine learning algorithm.",
+  },
+  {
+    projectName: 'Portfolio Website',
+    projectDescription:
+      'As a developer/designer, we should definitely have our own portfolio website. There are endless benefits.',
+  },
 ];

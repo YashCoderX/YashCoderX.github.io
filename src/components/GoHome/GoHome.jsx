@@ -5,7 +5,6 @@ import homeIconWhite from './../../assets/home_white.png';
 import homeIconBlack from './../../assets/home_black.png';
 import './GoHome.css';
 
-// A component to teach programmatic navigation
 // Note - It could have done with using a simple Link element,
 // But, I've used the history object to represent it's usage
 class GoHome extends Component {

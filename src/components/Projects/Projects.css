@@ -9,7 +9,7 @@
 
 .project-card {
     width: 500px;
-    min-height: 550px;
+    min-height: 350px;
     background: #ffffff;
     box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
     border-radius: 20px;

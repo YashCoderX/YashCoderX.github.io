@@ -10,7 +10,7 @@ const Projects = () => {
         <div className='section-container'>
             <Header
                 heading='My Projects.'
-                details="Here are a few cool things I've worked on, do check them out!"
+                details="Here are a few cool things I've worked on!"
             />
 
             <div className='project-cards-container'>
@@ -18,17 +18,11 @@ const Projects = () => {
                     ({
                         projectName,
                         projectDescription,
-                        imageUrl,
-                        videoUrl,
-                        projectUrl,
                     }) => {
                         return (
                             <ProjectCard
                                 projectName={projectName}
                                 projectDescription={projectDescription}
-                                projectUrl={projectUrl}
-                                imageUrl={imageUrl}
-                                videoUrl={videoUrl}
                             />
                         );
                     }

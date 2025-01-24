@@ -1,42 +1,48 @@
+import htmlIcon from '../assets/html.png';
+import cssIcon from '../assets/css.png';
+import jsIcon from '../assets/js.png';
+import reactIcon from '../assets/react.png';
+import reduxIcon from '../assets/redux.png';
+import nodeIcon from '../assets/node.png';
+import tsIcon from '../assets/ts.png';
+import javaIcon from '../assets/java.png';
+import mongoIcon from '../assets/mongo.png';
+
 export const skillList = [
     {
         skillName: 'HTML',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/html.png',
+        skillUrl: htmlIcon,
     },
     {
         skillName: 'CSS',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/css.png',
+        skillUrl: cssIcon,
     },
     {
         skillName: 'JavaScript',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/js.png',
+        skillUrl: jsIcon,
     },
     {
         skillName: 'React',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/react.png',
+        skillUrl: reactIcon,
     },
     {
         skillName: 'Redux',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/redux.png',
+        skillUrl: reduxIcon,
     },
     {
         skillName: 'NodeJS',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/node.png',
+        skillUrl: nodeIcon,
     },
     {
         skillName: 'TypeScript',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/ts.png',
+        skillUrl: tsIcon,
     },
     {
         skillName: 'Java',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/java.png',
-    },
-    {
-        skillName: 'C#',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/cs.png',
+        skillUrl: javaIcon,
     },
     {
         skillName: 'MongoDB',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/mongo.png',
+        skillUrl: mongoIcon,
     },
 ];
